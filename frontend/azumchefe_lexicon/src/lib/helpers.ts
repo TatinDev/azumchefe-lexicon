@@ -1,7 +1,7 @@
 import type { DictEntry } from '$lib/types';
 import { LANGUAGE_NAMES, POS_NAMES, GEO_MARKS, CONTEXT_MARKS } from '$lib/constants';
 
-export const API_BASE = import.meta.env.VITE_API_BASE ?? 'http://localhost:5125';
+export const API_BASE = import.meta.env.VITE_API_BASE ?? '/api';
 
 export function langName(code: string): string {
 	return LANGUAGE_NAMES[code] ?? code;
