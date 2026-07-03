@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: ./backend/azumchefe-lexicon-service/azumchefe-lexicon-service
+      dockerfile: Dockerfile
+    container_name: azumchefe-backend
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - Azumchefe__LexiconPath=/srv/azumchefe/public/
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend/azumchefe_lexicon
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_BASE=http://localhost:8080
+    container_name: azumchefe-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=3000
+    depends_on:
+      - backend
+    restart: unless-stopped

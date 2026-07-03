@@ -1,0 +1,126 @@
+{
+  "id": "diccionario_002",
+  "label": "Español-Mapudungún, vocabulario básico",
+  "sourceLanguage": "spa",
+  "targetLanguage": "arn",
+  "entries": [
+    {
+      "lemma": "pichitu",
+      "senses": [
+        {
+          "partOfSpeech": "adv",
+          "definitions": [
+            {
+              "text": "cortamente",
+              "quotes": [
+                {
+                  "text": "pichitu niege lashu",
+                  "targetLanguageText": "ten corto el lazo (da poco lazo al animal)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "mapuküzawün",
+      "senses": [
+        {
+          "partOfSpeech": "intr",
+          "definitions": [
+            {
+              "text": "trabajar en asuntos de terrenos"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "pichiwkülen",
+      "senses": [
+        {
+          "partOfSpeech": "refl",
+          "definitions": [
+            {
+              "text": "verse chico"
+            },
+            {
+              "text": "ser humilde, pequeño en la propia opinión"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "mapuzugun",
+      "senses": [
+        {
+          "partOfSpeech": "intr,unitr",
+          "definitions": [
+            {
+              "text": "hablar o hablar a alguno en la lengua mapuche"
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "intr",
+          "definitions": [
+            {
+              "text": "pleitar por terrenos"
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "n",
+          "definitions": [
+            {
+              "text": "la lengua mapuche"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "pichin",
+      "senses": [
+        {
+          "partOfSpeech": "intr",
+          "definitions": [
+            {
+              "text": "ser poco, pequeño"
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "adj",
+          "definitions": [
+            {
+              "text": "poco",
+              "quotes": [
+                {
+                  "text": "pichin che",
+                  "targetLanguageText": "poca gente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "n",
+          "definitions": [
+            {
+              "text": "poco",
+              "quotes": [
+                {
+                  "text": "ñi pichin mew",
+                  "targetLanguageText": "en mi niñez, cuando era chico"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

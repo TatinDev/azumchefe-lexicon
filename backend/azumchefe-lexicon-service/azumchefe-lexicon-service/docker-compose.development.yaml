@@ -1,0 +1,6 @@
+services:
+  azumchefe-service:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./srv/azumchefe/public:/srv/azumchefe/public

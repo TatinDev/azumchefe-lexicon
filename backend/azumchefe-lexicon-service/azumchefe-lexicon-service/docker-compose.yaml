@@ -1,0 +1,11 @@
+services:
+  azumchefe-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: azumchefe-service
+    ports:
+      - "8080:8080"
+    volumes:
+      - /srv/azumchefe/public:/srv/azumchefe/public
+    restart: always

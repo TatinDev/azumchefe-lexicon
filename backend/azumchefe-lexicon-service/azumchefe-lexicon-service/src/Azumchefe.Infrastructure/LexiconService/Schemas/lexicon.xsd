@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="ReferenceType">
+      <xs:attribute name="_" type="xs:string" use="required"/>
+      <xs:attribute name="e">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
+                
+      <xs:attribute name="n" type="xs:string"/>
+    </xs:complexType>
+
+    <xs:complexType name="EntryType">
+
+      <xs:sequence>
+        <xs:element name="fr" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:attribute name="_" type="xs:string" use="required"/>
+            <xs:attribute name="i">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="true"/>
+                  <xs:enumeration value="false"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+                            
+            <xs:attribute name="n" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="sn" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+
+            <xs:sequence>
+              <xs:element name="rf" type="ReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+
+              <xs:element name="df" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+
+                  <xs:sequence>
+                    <xs:element name="rf" type="ReferenceType" minOccurs="0" maxOccurs="unbounded"/>
+
+                    <xs:element name="qt" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="_" type="xs:string" use="required"/>
+                        <xs:attribute name="t" type="xs:string"/>
+                        <xs:attribute name="a" type="xs:string"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+
+                  <xs:attribute name="_" type="xs:string" use="required"/>
+                  <xs:attribute name="n" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+
+            <xs:attribute name="p" type="xs:string"/>
+            <xs:attribute name="g" type="xs:string"/>
+            <xs:attribute name="r" type="xs:string"/>
+            <xs:attribute name="n" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+
+        <xs:element name="cf" type="EntryType" minOccurs="0" maxOccurs="unbounded"/>
+
+      </xs:sequence>
+
+      <xs:attribute name="l" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <xs:element name="lx">
+      <xs:complexType>
+
+        <xs:sequence>
+          <xs:element name="en" type="EntryType" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+
+        <xs:attribute name="l" type="xs:string" use="required"/>
+        <xs:attribute name="s" type="xs:string" use="required"/>
+        <xs:attribute name="t" type="xs:string"/>
+      </xs:complexType>
+    </xs:element>
+
+</xs:schema>

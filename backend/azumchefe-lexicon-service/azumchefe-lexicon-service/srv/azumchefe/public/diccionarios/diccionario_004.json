@@ -1,0 +1,65 @@
+{
+  "id": "diccionario_004",
+  "label": "Diccionario Mapuche (variante Huapi)",
+  "sourceLanguage": "arn",
+  "targetLanguage": "spa",
+  "entries": [
+    {
+      "lemma": "mapu",
+      "senses": [
+        {
+          "partOfSpeech": "n",
+          "definitions": [
+            {
+              "text": "tierra, terreno, país, región, etc."
+            },
+            {
+              "text": "la gente del país, los de la misma tierra (en su totalidad)",
+              "quotes": [
+                {
+                  "text": "iñ mapu"
+                },
+                {
+                  "text": "iñ mapuñmaniel che",
+                  "targetLanguageText": "la gente de nuestra tierra o reducción"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "mapun",
+      "senses": [
+        {
+          "partOfSpeech": "intr",
+          "definitions": [
+            {
+              "text": "tener derecho sobre un terreno",
+              "quotes": [
+                {
+                  "text": "eymi mapulaymi faw",
+                  "targetLanguageText": "a ti no te toca terreno aquí"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "pichiñma",
+      "senses": [
+        {
+          "partOfSpeech": "adv",
+          "references": [
+            {
+              "text": "pichintu"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

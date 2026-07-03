@@ -1,0 +1,13 @@
+nul
+node_modules/
+.svelte-kit/
+build/
+.vite/
+bin/
+obj/
+out/
+*.user
+*.suo
+.env*
+*.md
+!AGENTS.md

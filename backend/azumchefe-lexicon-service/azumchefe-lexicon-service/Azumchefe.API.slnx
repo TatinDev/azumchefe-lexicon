@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="src/Azumchefe.API/Azumchefe.API.csproj" />
+  <Project Path="src/Azumchefe.Application/Azumchefe.Application.csproj" />
+  <Project Path="src/Azumchefe.Domain/Azumchefe.Domain.csproj" />
+  <Project Path="src/Azumchefe.Infrastructure/Azumchefe.Infrastructure.csproj" />
+</Solution>

@@ -1,0 +1,93 @@
+{
+  "id": "diccionario_003",
+  "label": "Mapudungún-English Basic Dictionary",
+  "sourceLanguage": "arn",
+  "targetLanguage": "eng",
+  "entries": [
+    {
+      "lemma": "pichikepichike",
+      "senses": [
+        {
+          "partOfSpeech": "adv",
+          "definitions": [
+            {
+              "text": "poco a poco"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "pichin",
+      "senses": [
+        {
+          "partOfSpeech": "intr",
+          "definitions": [
+            {
+              "text": "ser poco, pequeño"
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "adj",
+          "definitions": [
+            {
+              "text": "poco",
+              "quotes": [
+                {
+                  "text": "pichin che",
+                  "targetLanguageText": "poca gente"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "partOfSpeech": "n",
+          "definitions": [
+            {
+              "text": "poco",
+              "quotes": [
+                {
+                  "text": "ñi pichin mew",
+                  "targetLanguageText": "en mi niñez, cuando era chico"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "pichikünun",
+      "senses": [
+        {
+          "partOfSpeech": "unitr",
+          "definitions": [
+            {
+              "text": "dejar chico, acortar, abreviar"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma": "pichipüralen",
+      "forms": [
+        {
+          "text": "pichipüran"
+        }
+      ],
+      "senses": [
+        {
+          "partOfSpeech": "intr,adj",
+          "definitions": [
+            {
+              "text": "ser bajo, de poca altura"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
