@@ -1,4 +1,6 @@
 nul
+backend/azumchefe-lexicon-service/azumchefe-lexicon-service/.git/
+frontend/azumchefe_lexicon/.git/
 node_modules/
 .svelte-kit/
 build/
