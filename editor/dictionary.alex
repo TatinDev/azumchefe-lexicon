@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lx l="Diccionario Mapudungún-Español, Español Mapudungún" s="arn" t="spa">
+
+  <en l="mapu">
+    <sn p="n">
+      <df _="tierra, terreno, país, región, etc."/>
+      <df _="la gente del país, los de la misma tierra (en su totalidad)">
+        <qt _="iñ mapu"/>
+        <qt _="iñ mapuñmaniel che" t="la gente de nuestra tierra o reducción"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="mapu che">
+    <sn p="ncomp">
+      <df _="gente, habitante de algún país">
+        <qt _="franciamapu che" t="los habitantes de Francia"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="mapuche">
+    <sn p="ncomp" g="huapi">
+      <df _="el mapuche"/>
+    </sn>
+    <sn p="adj">
+      <df _="lo de los mapuches"/>
+    </sn>
+  </en>
+
+  <en l="mapuzugu">
+    <sn p="ncomp" g="huapi">
+      <df _="asunto de terrenos"/>
+    </sn>
+  </en>
+
+  <en l="mapuzugun">
+    <sn p="intr,unitr">
+      <df _="hablar o hablar a alguno en la lengua mapuche"/>
+    </sn>
+    <sn p="intr">
+      <df _="pleitar por terrenos"/>
+    </sn>
+    <sn p="n">
+      <df _="la lengua mapuche"/>
+    </sn>
+  </en>
+
+  <en l="mapuküzawün">
+    <sn p="intr">
+      <df _="trabajar en asuntos de terrenos"/>
+    </sn>
+  </en>
+
+  <en l="mapulkülen">
+    <sn p="intr" g="pangui">
+      <df _="haberse establecido en alguna parte (ocupando un terreno)">
+        <qt _="mapulkülepan" t="me he establecido aquí"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="mapulün">
+    <sn p="unitr" r="poet">
+      <df _="hacer correr tierras">
+        <qt _="itxo tuchi mapulfiñ rakizuam iñche" t="hice vagar mis pensamientos por todas las tierras"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="mapun">
+    <sn p="intr">
+      <df _="tener derecho sobre un terreno">
+        <qt _="eymi mapulaymi faw" t="a ti no te toca terreno aquí"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="mapunche">
+    <sn p="ncomp" g="pangui">
+      <df _="el mapuche (de Chile)"/>
+    </sn>
+  </en>
+
+  <en l="maputu">
+    <sn p="locadv">
+      <df _="en la tierra">
+        <qt _="nerüm antü maputu miawkey müten" t="las pulgas andan de día solamente en la tierra"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="pichi">
+    <sn p="adj" g="huapi">
+      <df _="pequeño, chico, menudo"/>
+    </sn>
+    <sn p="adv">
+      <df _="un poco"/>
+    </sn>
+  </en>
+
+  <en l="pichi">
+    <sn p="n" r="bot">
+      <df _="cierto arbusto" n="Fabiana imbricata R. et Pav; fam. Solanaceae."/>
+    </sn>
+  </en>
+
+  <en l="pichiche">
+    <sn p="ncomp">
+      <df _="el párvulo, niñito"/>
+    </sn>
+  </en>
+
+  <en l="pichichekawkületun">
+    <sn p="intr">
+      <df _="portarse como chiquillo"/>
+    </sn>
+  </en>
+
+  <en l="pichike">
+    <sn n="pl. partit. del adj. pichi">
+      <df _="chicos, pequeños, pocos"/>
+    </sn>
+    <sn p="adv" n="apóc. de pichikechi">
+      <df _="un poco, algo"/>
+    </sn>
+  </en>
+
+  <en l="pichikekünun">
+    <sn p="unitr">
+      <df _="dejar chico (tratándose de varias unidades de alguna especie, p. ej. la leña)"/>
+    </sn>
+  </en>
+
+  <en l="pichikelen">
+    <sn p="intr">
+      <df _="estar chico, dividido en porciones pequeñas, ser poco"/>
+    </sn>
+  </en>
+
+  <en l="pichikeñma">
+    <sn p="pladj">
+      <df _="chicos, chicas"/>
+    </sn>
+  </en>
+
+  <en l="pichikepichike">
+    <sn p="adv">
+      <df _="poco a poco"/>
+    </sn>
+  </en>
+
+  <en l="pichikünun">
+    <sn p="unitr">
+      <df _="dejar chico, acortar, abreviar"/>
+    </sn>
+  </en>
+
+  <en l="pichilen">
+    <sn p="intr">
+      <df _="ser poco, pequeño"/>
+    </sn>
+  </en>
+
+  <en l="pichilewen">
+    <sn p="intr">
+      <df _="quedar poco">
+        <qt _="pichilewen antü" t="tarde (de día)"/>
+        <qt _="pichilewechi antü mew" t="quedando ya poco sol"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="pichilewen">
+    <sn p="ditr">
+      <df _="dar a uno poco o un poco de una especie, un pedazo pequeño">
+        <qt _="pichilen chadi anhay" t="dame un poco de sal"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="pichilkan">
+    <sn p="unitr">
+      <df _="achicar, abreviar"/>
+    </sn>
+  </en>
+
+  <en l="pichin">
+    <sn p="intr">
+      <df _="ser poco, pequeño"/>
+    </sn>
+    <sn p="adj">
+      <df _="poco">
+        <qt _="pichin che" t="poca gente"/>
+      </df>
+    </sn>
+    <sn p="n">
+      <df _="poco">
+        <qt _="ñi pichin mew" t="en mi niñez, cuando era chico"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="pichintu">
+    <sn p="adv">
+      <df _="poco tiempo"/>
+    </sn>
+  </en>
+
+  <en l="pichintumen">
+    <sn p="intr">
+      <df _="ir a demorar poco, detenerse poco tiempo en otra parte"/>
+    </sn>
+  </en>
+
+  <en l="pichiñma">
+    <sn p="adv">
+      <rf _="pichintu"/>
+    </sn>
+  </en>
+
+  <en l="pichiñmalen">
+    <fr _="pichiñman"/>
+    <sn p="intr">
+      <df _="no durar mucho tiempo"/>
+    </sn>
+
+    <cf l="pichiñmamen">
+      <sn>
+        <rf _="pichintumen"/>
+      </sn>
+    </cf>
+
+    <cf l="pichiñmapan">
+      <sn p="intr">
+        <df _="haber venido por poco tiempo"/>
+      </sn>
+    </cf>
+  </en>
+
+  <en l="pichig">
+    <sn p="n" g="pangui">
+      <rf _="pichüng"/>
+    </sn>
+  </en>
+
+  <en l="pichipichitun">
+    <sn p="unitr">
+      <df _="hacer muy chico, picar"/>
+    </sn>
+  </en>
+
+  <en l="pichipu">
+    <sn p="adv">
+      <df _="a corta distancia"/>
+    </sn>
+  </en>
+
+  <en l="pichipüra">
+    <sn p="adj">
+      <df _="de poca altura"/>
+    </sn>
+    <sn p="adv">
+      <df _="en poca altura">
+        <qt _="machi lef nükefi pichipüra wenu" t="la machi cógelo en el aire, no muy arriba"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="pichipüralen">
+    <fr _="pichipüran"/>
+    <sn p="intr,adj">
+      <df _="ser bajo, de poca altura"/>
+    </sn>
+  </en>
+
+  <en l="pichirume">
+    <sn p="adj">
+      <df _="angosto, delgado"/>
+    </sn>
+  </en>
+
+  <en l="pichirupa">
+    <sn p="adj">
+      <df _="delgado, angosto"/>
+    </sn>
+  </en>
+
+  <en l="pichirupalen">
+    <fr _="pichirupan"/>
+    <sn p="intr,adj">
+      <df _="ser delgado, etc."/>
+    </sn>
+  </en>
+
+  <en l="pichirümelen">
+    <fr _="pichirumen"/>
+    <sn p="intr,adj">
+      <df _="ser angosto, delgado"/>
+    </sn>
+  </en>
+
+  <en l="pichitu">
+    <sn p="adv">
+      <df _="cortamente">
+        <qt _="pichitu niege lashu" t="ten corto el lazo (da poco lazo al animal)"/>
+      </df>
+    </sn>
+  </en>
+
+  <en l="pichitun">
+    <sn p="intr">
+      <df _="volverse corto, chico, poco"/>
+    </sn>
+    <sn p="unitr">
+      <df _="achicar"/>
+    </sn>
+  </en>
+
+  <en l="pichiwen">
+    <sn p="intr">
+      <df _="estar ya corto, p. ej. los días al acercarse el invierno"/>
+    </sn>
+  </en>
+
+  <en l="pichiwkülen">
+    <sn p="refl">
+      <df _="verse chico"/>
+      <df _="ser humilde, pequeño en la propia opinión"/>
+    </sn>
+  </en>
+
+</lx>

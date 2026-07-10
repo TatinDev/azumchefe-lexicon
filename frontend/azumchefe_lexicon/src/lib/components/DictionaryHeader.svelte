@@ -35,11 +35,11 @@
 	</button>
 	<div class="min-w-0">
 		<h2 class="truncate text-lg font-medium text-stone-800">
-			{diccionario?.label ?? ''}
+			{diccionario?.id ?? ''}
 		</h2>
 		<p class="truncate text-xs text-stone-500">
 			{diccionario
-				? `${langName(diccionario.sourceLanguage)} → ${langName(diccionario.targetLanguage)}`
+				? `${langName(diccionario.languageIndex)} → ${langName(diccionario.languageContent)}`
 				: ''}
 		</p>
 	</div>

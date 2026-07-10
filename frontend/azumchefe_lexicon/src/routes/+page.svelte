@@ -27,9 +27,9 @@
 		searchDictionary
 			? dictionaries.filter(
 					(d) =>
-						d.label.toLowerCase().includes(searchDictionary.toLowerCase()) ||
-						langName(d.sourceLanguage).toLowerCase().includes(searchDictionary.toLowerCase()) ||
-						langName(d.targetLanguage).toLowerCase().includes(searchDictionary.toLowerCase())
+						d.id.toLowerCase().includes(searchDictionary.toLowerCase()) ||
+						langName(d.languageIndex).toLowerCase().includes(searchDictionary.toLowerCase()) ||
+						langName(d.languageContent).toLowerCase().includes(searchDictionary.toLowerCase())
 				)
 			: dictionaries
 	);
@@ -101,16 +101,6 @@
 		}, 150);
 	}
 
-	function searchAndSelect(headword: string) {
-		const entry = dictionary?.entries.find(
-			(e) => e.lemma === headword || e.sublevelEntries?.some((s) => s.lemma === headword)
-		);
-		if (entry) {
-			selectedEntry = entry;
-			showingDetail = true;
-		}
-	}
-
 	function backToSelector() {
 		dictionaryId = null;
 		dictionary = null;
@@ -159,12 +149,7 @@
 					onselect={selectEntry}
 					show={!showingDetail}
 				/>
-				<DetailPanel
-					entry={selectedEntry}
-					show={showingDetail}
-					onnavigate={searchAndSelect}
-					onback={backToList}
-				/>
+				<DetailPanel entry={selectedEntry} show={showingDetail} onback={backToList} />
 			</div>
 		{/if}
 	{/if}

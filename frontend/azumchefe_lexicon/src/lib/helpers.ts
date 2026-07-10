@@ -1,5 +1,5 @@
 import type { DictEntry } from '$lib/types';
-import { LANGUAGE_NAMES, POS_NAMES, GEO_MARKS, CONTEXT_MARKS } from '$lib/constants';
+import { LANGUAGE_NAMES } from '$lib/constants';
 
 export const API_BASE = import.meta.env.VITE_API_BASE ?? '/api';
 
@@ -9,36 +9,26 @@ export function langName(code: string): string {
 
 export function expandPOS(pos: string | undefined): string[] {
 	if (!pos) return [];
-	return pos.split(',').map((p) => POS_NAMES[p.trim()] ?? p.trim());
-}
-
-export function geoMarkName(mark: string | undefined): string {
-	return GEO_MARKS[mark ?? ''] ?? mark ?? '';
-}
-
-export function restrictionMarkName(mark: string | undefined): string {
-	return CONTEXT_MARKS[mark ?? ''] ?? mark ?? '';
+	return pos.split(',').map((p) => p.trim());
 }
 
 export function entrySearchText(e: DictEntry): string {
-	const parts: string[] = [e.lemma];
-	for (const f of e.forms ?? []) parts.push(f.text);
+	const parts: string[] = [e.writtenForm];
+	for (const v of e.variants ?? []) parts.push(v);
 	for (const s of e.senses) {
 		for (const d of s.definitions ?? []) {
-			parts.push(d.text);
-			for (const q of d.quotes ?? []) {
-				parts.push(q.text, q.targetLanguageText ?? '');
-			}
+			parts.push(d.definition);
 		}
-		for (const r of s.references ?? []) parts.push(r.text);
+		for (const ex of s.examples ?? []) {
+			parts.push(ex.example);
+		}
 	}
-	for (const sub of e.sublevelEntries ?? []) parts.push(entrySearchText(sub));
 	return parts.join(' ').toLowerCase();
 }
 
 export function firstDefinition(e: DictEntry): string {
 	for (const s of e.senses) {
-		for (const d of s.definitions ?? []) return d.text;
+		for (const d of s.definitions ?? []) return d.definition;
 	}
 	return '';
 }

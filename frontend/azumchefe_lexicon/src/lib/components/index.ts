@@ -8,5 +8,4 @@ export { default as EntryList } from './EntryList.svelte';
 export { default as SenseBadges } from './SenseBadges.svelte';
 export { default as DefinitionBlock } from './DefinitionBlock.svelte';
 export { default as SenseBlock } from './SenseBlock.svelte';
-export { default as SubentriesSection } from './SubentriesSection.svelte';
 export { default as DetailPanel } from './DetailPanel.svelte';

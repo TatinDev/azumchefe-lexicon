@@ -16,9 +16,9 @@
 		? 'bg-stone-100'
 		: 'hover:bg-stone-50'}"
 >
-	<span class="font-medium text-stone-800">{entry.lemma}</span>
-	{#if entry.forms?.[0]}
-		<span class="ml-1 text-xs text-stone-400">({entry.forms[0].text})</span>
+	<span class="font-medium text-stone-800">{entry.writtenForm}</span>
+	{#if entry.variants?.[0]}
+		<span class="ml-1 text-xs text-stone-400">({entry.variants[0]})</span>
 	{/if}
 	{#if firstPOS(entry)}
 		<span class="ml-2 rounded bg-stone-100 px-1.5 py-0.5 text-xs text-stone-500">

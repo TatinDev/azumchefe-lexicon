@@ -1,780 +1,808 @@
 {
-  "title": "Diccionario Mapudungún-Español, Español Mapudungún",
-  "source_language": "arn",
-  "target_language": "spa",
-  "entries": [
-    {
-      "headword": "mapu",
-      "senses": [
-        {
-          "part_of_speech": "n",
-          "definitions": [
-            {
-              "content": "tierra, terreno, país, región, etc."
-            },
-            {
-              "content": "la gente del país, los de la misma tierra (en su totalidad)",
-              "quotes": [
-                {
-                  "content": "iñ mapu"
-                },
-                {
-                  "content": "iñ mapuñmaniel che",
-                  "translation": "la gente de nuestra tierra o reducción"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapu che",
-      "senses": [
-        {
-          "part_of_speech": "ncomp",
-          "definitions": [
-            {
-              "content": "gente, habitante de algún país",
-              "quotes": [
-                {
-                  "content": "franciamapu che",
-                  "translation": "los habitantes de Francia"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapuche",
-      "senses": [
-        {
-          "part_of_speech": "ncomp",
-          "geographic_mark": "huapi",
-          "definitions": [
-            {
-              "content": "el mapuche"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "adj",
-          "definitions": [
-            {
-              "content": "lo de los mapuches"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapuzugu",
-      "senses": [
-        {
-          "part_of_speech": "ncomp",
-          "geographic_mark": "huapi",
-          "definitions": [
-            {
-              "content": "asunto de terrenos"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapuzugun",
-      "senses": [
-        {
-          "part_of_speech": "intr,unitr",
-          "definitions": [
-            {
-              "content": "hablar o hablar a alguno en la lengua mapuche"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "pleitar por terrenos"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "n",
-          "definitions": [
-            {
-              "content": "la lengua mapuche"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapuküzawün",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "trabajar en asuntos de terrenos"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapulkülen",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "geographic_mark": "pangui",
-          "definitions": [
-            {
-              "content": "haberse establecido en alguna parte (ocupando un terreno)",
-              "quotes": [
-                {
-                  "content": "mapulkülepan",
-                  "translation": "me he establecido aquí"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapulün",
-      "senses": [
-        {
-          "part_of_speech": "unitr",
-          "context_mark": "poet",
-          "definitions": [
-            {
-              "content": "hacer correr tierras",
-              "quotes": [
-                {
-                  "content": "itxo tuchi mapulfiñ rakizuam iñche",
-                  "translation": "hice vagar mis pensamientos por todas las tierras"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapun",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "tener derecho sobre un terreno",
-              "quotes": [
-                {
-                  "content": "eymi mapulaymi faw",
-                  "translation": "a ti no te toca terreno aquí"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapunche",
-      "senses": [
-        {
-          "part_of_speech": "ncomp",
-          "geographic_mark": "pangui",
-          "definitions": [
-            {
-              "content": "el mapuche (de Chile)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "maputu",
-      "senses": [
-        {
-          "part_of_speech": "locadv",
-          "definitions": [
-            {
-              "content": "en la tierra",
-              "quotes": [
-                {
-                  "content": "nerüm antü maputu miawkey müten",
-                  "translation": "las pulgas andan de día solamente en la tierra"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichi",
-      "senses": [
-        {
-          "part_of_speech": "adj",
-          "geographic_mark": "huapi",
-          "definitions": [
-            {
-              "content": "pequeño, chico, menudo"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "un poco"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichi",
-      "senses": [
-        {
-          "part_of_speech": "n",
-          "context_mark": "bot",
-          "definitions": [
-            {
-              "content": "cierto arbusto",
-              "editorial_note": "Fabiana imbricata R. et Pav; fam. Solanaceae."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiche",
-      "senses": [
-        {
-          "part_of_speech": "ncomp",
-          "definitions": [
-            {
-              "content": "el párvulo, niñito"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichichekawkületun",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "portarse como chiquillo"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichike",
-      "senses": [
-        {
-          "editorial_note": "pl. partit. del adj. pichi",
-          "definitions": [
-            {
-              "content": "chicos, pequeños, pocos"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "adv",
-          "editorial_note": "apóc. de pichikechi",
-          "definitions": [
-            {
-              "content": "un poco, algo"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichikekünun",
-      "senses": [
-        {
-          "part_of_speech": "unitr",
-          "definitions": [
-            {
-              "content": "dejar chico (tratándose de varias unidades de alguna especie, p. ej. la leña)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichikelen",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "estar chico, dividido en porciones pequeñas, ser poco"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichikeñma",
-      "senses": [
-        {
-          "part_of_speech": "pladj",
-          "definitions": [
-            {
-              "content": "chicos, chicas"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichikepichike",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "poco a poco"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichikünun",
-      "senses": [
-        {
-          "part_of_speech": "unitr",
-          "definitions": [
-            {
-              "content": "dejar chico, acortar, abreviar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichilen",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "ser poco, pequeño"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichilewen",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "quedar poco",
-              "quotes": [
-                {
-                  "content": "pichilewen antü",
-                  "translation": "tarde (de día)"
-                },
-                {
-                  "content": "pichilewechi antü mew",
-                  "translation": "quedando ya poco sol"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichilewen",
-      "senses": [
-        {
-          "part_of_speech": "ditr",
-          "definitions": [
-            {
-              "content": "dar a uno poco o un poco de una especie, un pedazo pequeño",
-              "quotes": [
-                {
-                  "content": "pichilen chadi anhay",
-                  "translation": "dame un poco de sal"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichilkan",
-      "senses": [
-        {
-          "part_of_speech": "unitr",
-          "definitions": [
-            {
-              "content": "achicar, abreviar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichin",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "ser poco, pequeño"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "adj",
-          "definitions": [
-            {
-              "content": "poco",
-              "quotes": [
-                {
-                  "content": "pichin che",
-                  "translation": "poca gente"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "part_of_speech": "n",
-          "definitions": [
-            {
-              "content": "poco",
-              "quotes": [
-                {
-                  "content": "ñi pichin mew",
-                  "translation": "en mi niñez, cuando era chico"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichintu",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "poco tiempo"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichintumen",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "ir a demorar poco, detenerse poco tiempo en otra parte"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiñma",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "references": [
-            {
-              "target": "pichintu"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiñmalen",
-      "forms": [
-        {
-          "content": "pichiñman"
-        }
-      ],
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "no durar mucho tiempo"
-            }
-          ]
-        }
-      ],
-      "subentries": [
-        {
-          "headword": "pichiñmamen",
-          "senses": [
-            {
-              "references": [
-                {
-                  "target": "pichintumen"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "headword": "pichiñmapan",
-          "senses": [
-            {
-              "part_of_speech": "intr",
-              "definitions": [
-                {
-                  "content": "haber venido por poco tiempo"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichig",
-      "senses": [
-        {
-          "part_of_speech": "n",
-          "geographic_mark": "pangui",
-          "references": [
-            {
-              "target": "pichüng"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichipichitun",
-      "senses": [
-        {
-          "part_of_speech": "unitr",
-          "definitions": [
-            {
-              "content": "hacer muy chico, picar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichipu",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "a corta distancia"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichipüra",
-      "senses": [
-        {
-          "part_of_speech": "adj",
-          "definitions": [
-            {
-              "content": "de poca altura"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "en poca altura",
-              "quotes": [
-                {
-                  "content": "machi lef nükefi pichipüra wenu",
-                  "translation": "la machi cógelo en el aire, no muy arriba"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichipüralen",
-      "forms": [
-        {
-          "content": "pichipüran"
-        }
-      ],
-      "senses": [
-        {
-          "part_of_speech": "intr,adj",
-          "definitions": [
-            {
-              "content": "ser bajo, de poca altura"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichirume",
-      "senses": [
-        {
-          "part_of_speech": "adj",
-          "definitions": [
-            {
-              "content": "angosto, delgado"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichirupa",
-      "senses": [
-        {
-          "part_of_speech": "adj",
-          "definitions": [
-            {
-              "content": "delgado, angosto"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichirupalen",
-      "forms": [
-        {
-          "content": "pichirupan"
-        }
-      ],
-      "senses": [
-        {
-          "part_of_speech": "intr,adj",
-          "definitions": [
-            {
-              "content": "ser delgado, etc."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichirümelen",
-      "forms": [
-        {
-          "content": "pichirumen"
-        }
-      ],
-      "senses": [
-        {
-          "part_of_speech": "intr,adj",
-          "definitions": [
-            {
-              "content": "ser angosto, delgado"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichitu",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "cortamente",
-              "quotes": [
-                {
-                  "content": "pichitu niege lashu",
-                  "translation": "ten corto el lazo (da poco lazo al animal)"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichitun",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "volverse corto, chico, poco"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "unitr",
-          "definitions": [
-            {
-              "content": "achicar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiwen",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "estar ya corto, p. ej. los días al acercarse el invierno"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiwkülen",
-      "senses": [
-        {
-          "part_of_speech": "refl",
-          "definitions": [
-            {
-              "content": "verse chico"
-            },
-            {
-              "content": "ser humilde, pequeño en la propia opinión"
-            }
-          ]
-        }
-      ]
+  "lexicon": {
+    "language_index": "arn",
+    "language_content": "spa",
+    "article_index": {
+      "entry-001": {
+        "writtenForm": "mapu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "tierra, terreno, país, región, etc."
+              },
+              {
+                "definition": "la gente del país, los de la misma tierra (en su totalidad)"
+              }
+            ],
+            "examples": [
+              {
+                "example": "iñ mapu"
+              },
+              {
+                "example": "iñ mapuñmaniel che"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-002": {
+        "writtenForm": "mapu che",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "gente, habitante de algún país"
+              }
+            ],
+            "examples": [
+              {
+                "example": "franciamapu che"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-003": {
+        "writtenForm": "mapuche",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "el mapuche"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "lo de los mapuches"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-004": {
+        "writtenForm": "mapuzugu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "asunto de terrenos"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-005": {
+        "writtenForm": "mapuzugun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "hablar o hablar a alguno en la lengua mapuche"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "pleitar por terrenos"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "la lengua mapuche"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-006": {
+        "writtenForm": "mapuküzawün",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "trabajar en asuntos de terrenos"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-007": {
+        "writtenForm": "mapulkülen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "haberse establecido en alguna parte (ocupando un terreno)"
+              }
+            ],
+            "examples": [
+              {
+                "example": "mapulkülepan"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-008": {
+        "writtenForm": "mapulün",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "hacer correr tierras"
+              }
+            ],
+            "examples": [
+              {
+                "example": "itxo tuchi mapulfiñ rakizuam iñche"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-009": {
+        "writtenForm": "mapun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "tener derecho sobre un terreno"
+              }
+            ],
+            "examples": [
+              {
+                "example": "eymi mapulaymi faw"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-010": {
+        "writtenForm": "mapunche",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "el mapuche (de Chile)"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-011": {
+        "writtenForm": "maputu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "en la tierra"
+              }
+            ],
+            "examples": [
+              {
+                "example": "nerüm antü maputu miawkey müten"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-012": {
+        "writtenForm": "pichi",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "pequeño, chico, menudo"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "un poco"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-013": {
+        "writtenForm": "pichi",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "cierto arbusto"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-014": {
+        "writtenForm": "pichiche",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "el párvulo, niñito"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-015": {
+        "writtenForm": "pichichekawkületun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "portarse como chiquillo"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-016": {
+        "writtenForm": "pichike",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "chicos, pequeños, pocos"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "un poco, algo"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-017": {
+        "writtenForm": "pichikekünun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "dejar chico (tratándose de varias unidades de alguna especie, p. ej. la leña)"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-018": {
+        "writtenForm": "pichikelen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "estar chico, dividido en porciones pequeñas, ser poco"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-019": {
+        "writtenForm": "pichikeñma",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "chicos, chicas"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-020": {
+        "writtenForm": "pichikepichike",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "poco a poco"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-021": {
+        "writtenForm": "pichikünun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "dejar chico, acortar, abreviar"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-022": {
+        "writtenForm": "pichilen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ser poco, pequeño"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-023": {
+        "writtenForm": "pichilewen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "quedar poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichilewen antü"
+              },
+              {
+                "example": "pichilewechi antü mew"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-024": {
+        "writtenForm": "pichilewen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "dar a uno poco o un poco de una especie, un pedazo pequeño"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichilen chadi anhay"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-025": {
+        "writtenForm": "pichilkan",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "achicar, abreviar"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-026": {
+        "writtenForm": "pichin",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ser poco, pequeño"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichin che"
+              }
+            ]
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "ñi pichin mew"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-027": {
+        "writtenForm": "pichintu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "poco tiempo"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-028": {
+        "writtenForm": "pichintumen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ir a demorar poco, detenerse poco tiempo en otra parte"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-029": {
+        "writtenForm": "pichiñma",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [],
+            "examples": []
+          }
+        ]
+      },
+      "entry-030": {
+        "writtenForm": "pichiñmalen",
+        "variants": [
+          "pichiñman"
+        ],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "no durar mucho tiempo"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "haber venido por poco tiempo"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-031": {
+        "writtenForm": "pichig",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [],
+            "examples": []
+          }
+        ]
+      },
+      "entry-032": {
+        "writtenForm": "pichipichitun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "hacer muy chico, picar"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-033": {
+        "writtenForm": "pichipu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "a corta distancia"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-034": {
+        "writtenForm": "pichipüra",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "de poca altura"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "en poca altura"
+              }
+            ],
+            "examples": [
+              {
+                "example": "machi lef nükefi pichipüra wenu"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-035": {
+        "writtenForm": "pichipüralen",
+        "variants": [
+          "pichipüran"
+        ],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ser bajo, de poca altura"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-036": {
+        "writtenForm": "pichirume",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "angosto, delgado"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-037": {
+        "writtenForm": "pichirupa",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "delgado, angosto"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-038": {
+        "writtenForm": "pichirupalen",
+        "variants": [
+          "pichirupan"
+        ],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ser delgado, etc."
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-039": {
+        "writtenForm": "pichirümelen",
+        "variants": [
+          "pichirumen"
+        ],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ser angosto, delgado"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-040": {
+        "writtenForm": "pichitu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "cortamente"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichitu niege lashu"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-041": {
+        "writtenForm": "pichitun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "volverse corto, chico, poco"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "achicar"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-042": {
+        "writtenForm": "pichiwen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "estar ya corto, p. ej. los días al acercarse el invierno"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-043": {
+        "writtenForm": "pichiwkülen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "verse chico"
+              },
+              {
+                "definition": "ser humilde, pequeño en la propia opinión"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      }
     }
-  ]
+  }
 }

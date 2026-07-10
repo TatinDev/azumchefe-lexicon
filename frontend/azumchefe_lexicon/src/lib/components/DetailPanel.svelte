@@ -1,17 +1,14 @@
 <script lang="ts">
 	import type { DictEntry } from '$lib/types';
 	import SenseBlock from './SenseBlock.svelte';
-	import SubentriesSection from './SubentriesSection.svelte';
 
 	let {
 		entry,
 		show,
-		onnavigate,
 		onback
 	}: {
 		entry: DictEntry | null;
 		show: boolean;
-		onnavigate: (lemma: string) => void;
 		onback: () => void;
 	} = $props();
 </script>
@@ -37,22 +34,18 @@
 		<div class="rounded-xl border border-stone-200 bg-white p-6">
 			<div class="mb-5 flex items-start justify-between gap-4">
 				<div>
-					<h3 class="text-2xl font-semibold text-stone-800">{entry.lemma}</h3>
-					{#if entry.forms && entry.forms.length > 0}
+					<h3 class="text-2xl font-semibold text-stone-800">{entry.writtenForm}</h3>
+					{#if entry.variants && entry.variants.length > 0}
 						<p class="mt-0.5 text-sm text-stone-400">
-							también: {entry.forms.map((f) => f.text).join(', ')}
+							también: {entry.variants.join(', ')}
 						</p>
 					{/if}
 				</div>
 			</div>
 
 			{#each entry.senses as sense, si (si)}
-				<SenseBlock {sense} index={si} {onnavigate} />
+				<SenseBlock {sense} index={si} />
 			{/each}
-
-			{#if entry.sublevelEntries && entry.sublevelEntries.length > 0}
-				<SubentriesSection subentries={entry.sublevelEntries} {onnavigate} />
-			{/if}
 		</div>
 	{:else}
 		<div class="flex h-full items-center justify-center py-20 sm:py-32">

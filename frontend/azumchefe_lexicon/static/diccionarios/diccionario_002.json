@@ -1,125 +1,134 @@
 {
-  "title": "Español-Mapudungún, vocabulario básico",
-  "source_language": "spa",
-  "target_language": "arn",
-  "entries": [
-    {
-      "headword": "pichitu",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "definitions": [
-            {
-              "content": "cortamente",
-              "quotes": [
-                {
-                  "content": "pichitu niege lashu",
-                  "translation": "ten corto el lazo (da poco lazo al animal)"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapuküzawün",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "trabajar en asuntos de terrenos"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiwkülen",
-      "senses": [
-        {
-          "part_of_speech": "refl",
-          "definitions": [
-            {
-              "content": "verse chico"
-            },
-            {
-              "content": "ser humilde, pequeño en la propia opinión"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapuzugun",
-      "senses": [
-        {
-          "part_of_speech": "intr,unitr",
-          "definitions": [
-            {
-              "content": "hablar o hablar a alguno en la lengua mapuche"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "pleitar por terrenos"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "n",
-          "definitions": [
-            {
-              "content": "la lengua mapuche"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichin",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "ser poco, pequeño"
-            }
-          ]
-        },
-        {
-          "part_of_speech": "adj",
-          "definitions": [
-            {
-              "content": "poco",
-              "quotes": [
-                {
-                  "content": "pichin che",
-                  "translation": "poca gente"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "part_of_speech": "n",
-          "definitions": [
-            {
-              "content": "poco",
-              "quotes": [
-                {
-                  "content": "ñi pichin mew",
-                  "translation": "en mi niñez, cuando era chico"
-                }
-              ]
-            }
-          ]
-        }
-      ]
+  "lexicon": {
+    "language_index": "spa",
+    "language_content": "arn",
+    "article_index": {
+      "entry-001": {
+        "writtenForm": "pichitu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "cortamente"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichitu niege lashu"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-002": {
+        "writtenForm": "mapuküzawün",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "trabajar en asuntos de terrenos"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-003": {
+        "writtenForm": "pichiwkülen",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "verse chico"
+              },
+              {
+                "definition": "ser humilde, pequeño en la propia opinión"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-004": {
+        "writtenForm": "mapuzugun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "hablar o hablar a alguno en la lengua mapuche"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "pleitar por terrenos"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "la lengua mapuche"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-005": {
+        "writtenForm": "pichin",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "ser poco, pequeño"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichin che"
+              }
+            ]
+          },
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "ñi pichin mew"
+              }
+            ]
+          }
+        ]
+      }
     }
-  ]
+  }
 }

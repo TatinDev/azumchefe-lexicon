@@ -31,7 +31,7 @@ var app = builder.Build();
 
 app.UseCors();
 
-var lexiconJsonOptions = new JsonSerializerOptions
+var jsonOptions = new JsonSerializerOptions
 {
     PropertyNameCaseInsensitive = true,
 };
@@ -40,14 +40,13 @@ string dictionariesPath = Path.Combine(applicationSettings.LexiconPath, "diccion
 
 app.MapGet("/dictionaries", () =>
 {
-    var summaries = LoadLexicons(dictionariesPath, lexiconJsonOptions)
-        .Select(lexicon => new
+    var summaries = LoadNemlFiles(dictionariesPath)
+        .Select(item => new
         {
-            lexicon.Id,
-            lexicon.Label,
-            lexicon.SourceLanguage,
-            lexicon.TargetLanguage,
-            EntryCount = lexicon.Entries.Count,
+            item.Id,
+            LanguageIndex = item.Data.Lexicon?.LanguageIndex,
+            LanguageContent = item.Data.Lexicon?.LanguageContent,
+            EntryCount = item.Data.Lexicon?.ArticleIndex?.Count ?? 0
         });
 
     return Results.Ok(summaries);
@@ -55,19 +54,35 @@ app.MapGet("/dictionaries", () =>
 
 app.MapGet("/dictionaries/{id}", (string id) =>
 {
-    var lexicon = LoadLexicons(dictionariesPath, lexiconJsonOptions)
-        .FirstOrDefault(lexicon => lexicon.Id == id);
+    var item = LoadNemlFiles(dictionariesPath)
+        .FirstOrDefault(item => item.Id == id);
 
-    return lexicon is null
-        ? Results.NotFound($"The dictionary '{id}' was not found")
-        : Results.Ok(lexicon);
+    if (item.Id is null)
+        return Results.NotFound($"The dictionary '{id}' was not found");
+
+    var entries = item.Data.Lexicon?.ArticleIndex?
+        .Select(kvp => new
+        {
+            kvp.Value.WrittenForm,
+            Variants = kvp.Value.Variants ?? [],
+            Senses = kvp.Value.Senses
+        })
+        .ToList() ?? [];
+
+    return Results.Ok(new
+    {
+        item.Id,
+        item.Data.Lexicon?.LanguageIndex,
+        item.Data.Lexicon?.LanguageContent,
+        Entries = entries
+    });
 });
 
 app.MapGet("/index", () =>
 {
-    var index = LoadLexicons(dictionariesPath, lexiconJsonOptions)
-        .SelectMany(lexicon => lexicon.Entries)
-        .SelectMany(GetEntryForms)
+    var index = LoadNemlFiles(dictionariesPath)
+        .SelectMany(item => item.Data.Lexicon?.ArticleIndex?.Values ?? Enumerable.Empty<NemlEntry>())
+        .SelectMany(GetNemlEntryForms)
         .Distinct(StringComparer.OrdinalIgnoreCase)
         .Order(StringComparer.OrdinalIgnoreCase);
 
@@ -76,16 +91,28 @@ app.MapGet("/index", () =>
 
 app.MapGet("/entries/{form}", (string form) =>
 {
-    var lexicons = LoadLexicons(dictionariesPath, lexiconJsonOptions)
-        .Select(lexicon => new Lexicon
+    var lexicons = LoadNemlFiles(dictionariesPath)
+        .Select(item =>
         {
-            Id = lexicon.Id,
-            Label = lexicon.Label,
-            SourceLanguage = lexicon.SourceLanguage,
-            TargetLanguage = lexicon.TargetLanguage,
-            Entries = lexicon.Entries.Where(entry => EntryMatches(entry, form)).ToList(),
+            var matchingEntries = (item.Data.Lexicon?.ArticleIndex ?? [])
+                .Where(kvp => EntryMatches(kvp.Value, form))
+                .Select(kvp => new
+                {
+                    kvp.Value.WrittenForm,
+                    Variants = kvp.Value.Variants ?? [],
+                    Senses = kvp.Value.Senses
+                })
+                .ToList();
+
+            return new
+            {
+                item.Id,
+                item.Data.Lexicon?.LanguageIndex,
+                item.Data.Lexicon?.LanguageContent,
+                Entries = matchingEntries
+            };
         })
-        .Where(lexicon => lexicon.Entries.Count > 0)
+        .Where(item => item.Entries.Count > 0)
         .ToList();
 
     return lexicons.Count == 0
@@ -95,40 +122,41 @@ app.MapGet("/entries/{form}", (string form) =>
 
 app.Run();
 
-static IEnumerable<Lexicon> LoadLexicons(string path, JsonSerializerOptions options)
+static IEnumerable<(string Id, NemlLexicon Data)> LoadNemlFiles(string path)
 {
     if (!Directory.Exists(path))
-        return [];
+        return Enumerable.Empty<(string Id, NemlLexicon Data)>();
 
-    return Directory.GetFiles(path, "*.json")
+    var files = Directory.GetFiles(path, "*.json")
+        .Concat(Directory.GetFiles(path, "*.neml"))
         .Order(StringComparer.OrdinalIgnoreCase)
-        .Select(file =>
+        .ToArray();
+
+    return files.Select(file =>
+    {
+        var data = JsonSerializer.Deserialize<NemlLexicon>(File.ReadAllText(file), new JsonSerializerOptions
         {
-            var lexicon = JsonSerializer.Deserialize<Lexicon>(File.ReadAllText(file), options)
-                ?? throw new InvalidOperationException($"Could not deserialize '{file}'");
+            PropertyNameCaseInsensitive = true
+        }) ?? throw new InvalidOperationException($"Could not deserialize '{file}'");
 
-            lexicon.Id ??= Path.GetFileNameWithoutExtension(file);
-
-            return lexicon;
-        });
+        var id = Path.GetFileNameWithoutExtension(file);
+        return (Id: id, Data: data);
+    });
 }
 
-static IEnumerable<string> GetEntryForms(Entry entry)
+static IEnumerable<string> GetNemlEntryForms(NemlEntry entry)
 {
-    yield return entry.Lemma;
+    if (!string.IsNullOrEmpty(entry.WrittenForm))
+        yield return entry.WrittenForm;
 
-    foreach (var form in entry.Forms ?? [])
+    foreach (var variant in entry.Variants ?? [])
     {
-        if (form.DoNotIndex != "true")
-            yield return form.Text;
-    }
-
-    foreach (var sublevelEntry in entry.SublevelEntries ?? [])
-    {
-        foreach (var form in GetEntryForms(sublevelEntry))
-            yield return form;
+        if (!string.IsNullOrEmpty(variant))
+            yield return variant;
     }
 }
 
-static bool EntryMatches(Entry entry, string form) =>
-    GetEntryForms(entry).Any(entryForm => entryForm.Equals(form, StringComparison.OrdinalIgnoreCase));
+static bool EntryMatches(NemlEntry entry, string form)
+{
+    return GetNemlEntryForms(entry).Any(f => f.Equals(form, StringComparison.OrdinalIgnoreCase));
+}

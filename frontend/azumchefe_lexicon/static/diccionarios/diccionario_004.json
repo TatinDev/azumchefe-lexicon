@@ -1,64 +1,63 @@
 {
-  "title": "Diccionario Mapuche (variante Huapi)",
-  "source_language": "arn",
-  "target_language": "spa",
-  "entries": [
-    {
-      "headword": "mapu",
-      "senses": [
-        {
-          "part_of_speech": "n",
-          "definitions": [
-            {
-              "content": "tierra, terreno, país, región, etc."
-            },
-            {
-              "content": "la gente del país, los de la misma tierra (en su totalidad)",
-              "quotes": [
-                {
-                  "content": "iñ mapu"
-                },
-                {
-                  "content": "iñ mapuñmaniel che",
-                  "translation": "la gente de nuestra tierra o reducción"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "mapun",
-      "senses": [
-        {
-          "part_of_speech": "intr",
-          "definitions": [
-            {
-              "content": "tener derecho sobre un terreno",
-              "quotes": [
-                {
-                  "content": "eymi mapulaymi faw",
-                  "translation": "a ti no te toca terreno aquí"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "headword": "pichiñma",
-      "senses": [
-        {
-          "part_of_speech": "adv",
-          "references": [
-            {
-              "target": "pichintu"
-            }
-          ]
-        }
-      ]
+  "lexicon": {
+    "language_index": "arn",
+    "language_content": "spa",
+    "article_index": {
+      "entry-001": {
+        "writtenForm": "mapu",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "tierra, terreno, país, región, etc."
+              },
+              {
+                "definition": "la gente del país, los de la misma tierra (en su totalidad)"
+              }
+            ],
+            "examples": [
+              {
+                "example": "iñ mapu"
+              },
+              {
+                "example": "iñ mapuñmaniel che"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-002": {
+        "writtenForm": "mapun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [
+              {
+                "definition": "tener derecho sobre un terreno"
+              }
+            ],
+            "examples": [
+              {
+                "example": "eymi mapulaymi faw"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-003": {
+        "writtenForm": "pichiñma",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "",
+            "definitions": [],
+            "examples": []
+          }
+        ]
+      }
     }
-  ]
+  }
 }

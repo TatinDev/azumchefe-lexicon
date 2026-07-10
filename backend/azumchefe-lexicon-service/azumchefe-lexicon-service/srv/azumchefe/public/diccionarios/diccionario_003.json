@@ -1,93 +1,96 @@
 {
-  "id": "diccionario_003",
-  "label": "Mapudungún-English Basic Dictionary",
-  "sourceLanguage": "arn",
-  "targetLanguage": "eng",
-  "entries": [
-    {
-      "lemma": "pichikepichike",
-      "senses": [
-        {
-          "partOfSpeech": "adv",
-          "definitions": [
-            {
-              "text": "poco a poco"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "lemma": "pichin",
-      "senses": [
-        {
-          "partOfSpeech": "intr",
-          "definitions": [
-            {
-              "text": "ser poco, pequeño"
-            }
-          ]
-        },
-        {
-          "partOfSpeech": "adj",
-          "definitions": [
-            {
-              "text": "poco",
-              "quotes": [
-                {
-                  "text": "pichin che",
-                  "targetLanguageText": "poca gente"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "partOfSpeech": "n",
-          "definitions": [
-            {
-              "text": "poco",
-              "quotes": [
-                {
-                  "text": "ñi pichin mew",
-                  "targetLanguageText": "en mi niñez, cuando era chico"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "lemma": "pichikünun",
-      "senses": [
-        {
-          "partOfSpeech": "unitr",
-          "definitions": [
-            {
-              "text": "dejar chico, acortar, abreviar"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "lemma": "pichipüralen",
-      "forms": [
-        {
-          "text": "pichipüran"
-        }
-      ],
-      "senses": [
-        {
-          "partOfSpeech": "intr,adj",
-          "definitions": [
-            {
-              "text": "ser bajo, de poca altura"
-            }
-          ]
-        }
-      ]
+  "lexicon": {
+    "language_index": "arn",
+    "language_content": "eng",
+    "article_index": {
+      "entry-001": {
+        "writtenForm": "pichikepichike",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "adverbio",
+            "definitions": [
+              {
+                "definition": "poco a poco"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-002": {
+        "writtenForm": "pichin",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "verbo intransitivo",
+            "definitions": [
+              {
+                "definition": "ser poco, pequeño"
+              }
+            ],
+            "examples": []
+          },
+          {
+            "partOfSpeech": "adjetivo",
+            "definitions": [
+              {
+                "definition": "poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "pichin che"
+              }
+            ]
+          },
+          {
+            "partOfSpeech": "sustantivo",
+            "definitions": [
+              {
+                "definition": "poco"
+              }
+            ],
+            "examples": [
+              {
+                "example": "ñi pichin mew"
+              }
+            ]
+          }
+        ]
+      },
+      "entry-003": {
+        "writtenForm": "pichikünun",
+        "variants": [],
+        "senses": [
+          {
+            "partOfSpeech": "verbo unitransitivo",
+            "definitions": [
+              {
+                "definition": "dejar chico, acortar, abreviar"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      },
+      "entry-004": {
+        "writtenForm": "pichipüralen",
+        "variants": [
+          "pichipüran"
+        ],
+        "senses": [
+          {
+            "partOfSpeech": "verbo intransitivo, adjetivo",
+            "definitions": [
+              {
+                "definition": "ser bajo, de poca altura"
+              }
+            ],
+            "examples": []
+          }
+        ]
+      }
     }
-  ]
+  }
 }

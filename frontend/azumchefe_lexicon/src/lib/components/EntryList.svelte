@@ -20,7 +20,7 @@
 		<div class="py-12 text-center text-sm text-stone-400">No se encontraron entradas</div>
 	{:else}
 		<div class="overflow-y-auto sm:max-h-[calc(100dvh-18rem)]">
-			{#each entries as e, i (e.lemma + '_' + i)}
+			{#each entries as e, i (e.writtenForm + '_' + i)}
 				<EntryListItem entry={e} selected={selected === e} {onselect} />
 			{/each}
 		</div>
