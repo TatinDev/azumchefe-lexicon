@@ -78,6 +78,19 @@ app.MapGet("/dictionaries/{id}", (string id) =>
     });
 });
 
+app.MapGet("/dictionaries/{id}/download", (string id) =>
+{
+    var filePath = FindNemlFile(dictionariesPath, id);
+
+    if (filePath is null)
+        return Results.NotFound($"The dictionary '{id}' was not found");
+
+    var fileName = Path.GetFileName(filePath);
+    var content = File.ReadAllBytes(filePath);
+
+    return Results.File(content, "application/json", fileName);
+});
+
 app.MapGet("/index", () =>
 {
     var index = LoadNemlFiles(dictionariesPath)
@@ -142,6 +155,19 @@ static IEnumerable<(string Id, NemlLexicon Data)> LoadNemlFiles(string path)
         var id = Path.GetFileNameWithoutExtension(file);
         return (Id: id, Data: data);
     });
+}
+
+static string? FindNemlFile(string path, string id)
+{
+    if (!Directory.Exists(path))
+        return null;
+
+    return Directory.GetFiles(path, "*.*")
+        .FirstOrDefault(f =>
+        {
+            var name = Path.GetFileNameWithoutExtension(f);
+            return name.Equals(id, StringComparison.OrdinalIgnoreCase);
+        });
 }
 
 static IEnumerable<string> GetNemlEntryForms(NemlEntry entry)

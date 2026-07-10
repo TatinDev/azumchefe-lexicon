@@ -14,7 +14,7 @@
 		onback: () => void;
 	} = $props();
 
-	let downloadUrl = $derived(`${API_BASE}/dictionaries/${diccionarioId}?download=true`);
+	let downloadUrl = $derived(`${API_BASE}/dictionaries/${diccionarioId}/download`);
 </script>
 
 <div class="mb-4 flex items-center gap-3">
