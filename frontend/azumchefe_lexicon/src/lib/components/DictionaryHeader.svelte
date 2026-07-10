@@ -14,7 +14,15 @@
 		onback: () => void;
 	} = $props();
 
-	let downloadUrl = $derived(`${API_BASE}/dictionaries/${diccionarioId}/download`);
+	function downloadFile() {
+		const url = `${API_BASE}/dictionaries/${diccionarioId}/download`;
+		const a = document.createElement('a');
+		a.href = url;
+		a.download = '';
+		document.body.appendChild(a);
+		a.click();
+		document.body.removeChild(a);
+	}
 </script>
 
 <div class="mb-4 flex items-center gap-3">
@@ -45,7 +53,7 @@
 	</div>
 	<button
 		type="button"
-		onclick={() => window.open(downloadUrl, '_blank')}
+		onclick={downloadFile}
 		class="ml-auto flex size-7 shrink-0 items-center justify-center rounded-lg text-stone-400 transition-colors hover:bg-stone-100 hover:text-stone-600"
 		aria-label="Descargar JSON"
 		title="Descargar JSON"
